@@ -1157,7 +1157,7 @@ th{
             /*overlay på billeder med opskift*/
              .content1 {
               position:absolute;
-              bottom: -38%;
+              bottom: -60%;
               background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
               color: #f1f1f1;
               width: 24%;
@@ -1169,7 +1169,7 @@ th{
             /*overlay på billeder med opskift*/
              .content2 {
               position:absolute;
-              bottom: -65%;
+              bottom: -91%;
               background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
               color: #f1f1f1;
               width: 23.7%;
@@ -1181,7 +1181,7 @@ th{
             /*overlay på billeder med opskift*/
              .content3 {
               position:absolute;
-              bottom: -45%;
+              bottom: -67.4%;
               background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
               color: #f1f1f1;
               width: 24%;
