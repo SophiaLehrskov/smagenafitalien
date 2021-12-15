@@ -1,0 +1,1336 @@
+/*farver*/
+:root{
+  --baggrund:#fbfbf4;
+  --tekstbox: #e3dfd3;
+}
+
+.wrap{
+  width: 100%;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/*baggrunds billede*/
+body{
+  background-color: var(--baggrund);
+  background-image: url("../image/baggrund1.png");
+  background-size: contain;
+  font-family: "Andale Mono", sans-serif;
+}
+
+/*drop down menu bar*/
+
+.dropbtn {
+  background-color: #0000;
+  color: black;
+  padding: 38px;
+  font-size: 35px;
+  border: none;
+  margin-top: 70%;
+  margin-left: 50%;
+}
+
+.dropdown {
+
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fbfbf4;
+  min-width: 38px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 20px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #fbfbf4;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #fbfbf4;}
+
+/*placering af logo*/
+.logo{
+  margin-left: 23%;
+  margin-top: -14%;
+
+}
+
+/*placering af logo mob*/
+.logomobil{
+  margin-left:18%;
+  margin-top: -26%;
+
+}
+
+/*placering af logo tablet vandret*/
+.logotab{
+  margin-left:22%;
+  margin-top: -25%;
+
+}
+
+
+
+/*placering af link til urtekram*/
+.urtekram{
+  margin-left: 82%;
+  margin-top: -11%;
+
+}
+
+/*placering af link til urtekram mob*/
+
+.urtekrammob{
+  margin-left: 55%;
+  margin-top: -17%;
+}
+
+
+
+/*placering af linje*/
+.linje{
+
+  margin-left: 1%;
+  margin-right: 2%;
+  margin-top: 5.5%;
+}
+
+/*placering af linje mob*/
+
+.linjemob{
+  margin-top: 5%;
+}
+
+/*placering af linje tab lodret*/
+
+.linjetab{
+  margin-top: 4%;
+  margin-left: 1.5%;
+}
+
+/*placering af linje tab vandret*/
+
+.linjet{
+  margin-top: 5%;
+  margin-right: 2%;
+}
+
+/*Kampagne billede*/
+.italien{
+  margin-left: 60%;
+  margin-top: -18%;
+  margin-bottom: 5%;
+
+}
+
+
+/*Kampagne billedemob*/
+.italienmob{
+  margin-top: -5%;
+  text-align: center;
+
+
+}
+
+/*Kampagne billedetab*/
+.italientab{
+  margin-top: 5%;
+  text-align: center;
+  margin-bottom: 5%;
+
+}
+
+/*Kampagne navn*/
+
+.h1{
+  margin-top:13%;
+  margin-left: 15%;
+  font-size: 145%;
+
+}
+
+.h2{
+  font-size: 70%;
+  margin-left: 60%;
+
+}
+
+
+
+
+
+/*billede kollage*/
+
+*{
+  box-sizing: border-box;
+}
+
+.row{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column{
+  -ms-flex:25%;
+  flex:25%;
+  max-width: 25%;
+  padding: 0 4px;
+  max-height: 80%;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/*overlay på billeder med opskift*/
+ .content1 {
+  position:absolute;
+  bottom: -40%;
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 24%;
+  padding: 0.5px;
+  text-align: center;
+}
+
+/*overlay på billeder med opskift*/
+ .content2 {
+  position:absolute;
+  bottom: -71%;
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 23.7%;
+  padding: 0.5px;
+  text-align: center;
+}
+
+/*overlay på billeder med opskift*/
+ .content3 {
+  position:absolute;
+  bottom: -47%;
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 24%;
+  padding: 0.5px;
+  text-align: center;
+}
+
+/*billeder på mobil*/
+
+.rowmob{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.columnmob{
+  -ms-flex:25%;
+  flex:20%;
+  max-width: 35%;
+  padding: 0 4px;
+
+}
+
+.columnmob img {
+  margin-top: 10px;
+  vertical-align: middle;
+  margin-right: 20%;
+  max-height: 87%;
+}
+
+/*overlay på billeder med opskift*/
+ .contentmob {
+  position:absolute;
+  bottom: 31%;
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 29%;
+  padding: 1px;
+  text-align: center;
+  font-size: 6px;
+}
+
+
+/* Styling the area of the slides */
+#slideshow {
+  overflow: hidden;
+  width: 49.3%;
+  margin-left: 50.3%
+}
+
+/* Style each of the sides
+with a fixed width and height */
+.slide {
+  float: left;
+  height: 450px;
+  width: 900px;
+  margin-top: -3%;
+}
+
+/* Add animation to the slides */
+.slide-wrapper {
+
+/* Calculate the total width on the
+  basis of number of slides */
+  width: calc(1000px * 3);
+
+/* Specify the animation with the
+  duration and speed */
+  animation: slide 20s ease infinite;
+}
+
+ .img1{
+   width: 100%
+ }
+
+/* Define the animation
+for the slideshow */
+@keyframes slide {
+
+/* Calculate the margin-left for
+  each of the slides */
+  90% {
+    margin-left: calc(-1000px);
+  }
+
+  90% {
+    margin-left: calc(-1000px * 2);
+  }
+
+  50% {
+    margin-left: calc(-1000px * 1);
+  }
+
+  80% {
+    margin-left: calc(-1000px * 2);
+  }
+}
+
+/*opatilling af historie*/
+
+.historie{
+  background-color: #8c1812;
+  margin-top: -25.4%;
+  margin-right: 50.3%;
+  margin-left: 0.64%;
+  margin-bottom: 10%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  font-family: "Andale Mono", sans-serif;
+  font-size: 14px;
+  color: white;
+
+}
+
+.his{
+  margin-right: 5%;
+  margin-left: 2%;
+
+  margin-bottom: 5.4%;
+}
+
+.overskrift{
+  text-align: center;
+}
+
+/*styling af tabel*/
+
+.styled-table{
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  width: 99%;
+  margin-left: 0.5%;
+  background-color:  #10672e;
+  color:white;
+  margin-bottom: 8%;.
+
+
+
+}
+
+.styled-table thead {
+  background-color: #10672e;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 130%;
+  max-width: 100%;
+
+
+
+}
+
+.styled-table th,
+.styled-table td{
+  padding: 15px 15px;
+}
+
+.styled-table tbody tr:last-of-type{
+  border-bottom: 2px solid black;
+}
+
+.styled-table tbody tr.active-row{
+  font-weight: bold;
+  color: white;
+
+}
+th{
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+
+
+
+/*styling af footer*/
+
+.footer-basic{
+  background-color: #f8f5eb;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+
+
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+
+
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:5;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:1%;
+}
+
+.footer-basic .social > a {
+  font-size:20px;
+  width:40px;
+  height:40px;
+  line-height:42px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid black;
+  margin-top: 1%;
+  margin-bottom: 0.5%;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:5;
+}
+
+
+.footer-basic .copyright {
+  margin-top:0.5%;
+  text-align:center;
+  font-size:13px;
+  color:black;
+  margin-top: 2%;
+  font-family: "Andale Mono", sans-serif;
+}
+
+/*scrollbar*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Responsive layout - Mobilenhed*/
+      @media screen and (max-width: 600px){
+        /*drop down menu bar*/
+
+        .dropbtn {
+          background-color: #0000;
+          color: black;
+          padding: 15px;
+          font-size: 20px;
+          border: none;
+          margin-top: 60%;
+          margin-left: 17%;
+
+        }
+
+        .dropdown {
+          display: inline-block;
+
+
+
+        }
+
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #fbfbf4;
+          min-width: 20px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 10;
+        }
+
+        .dropdown-content a {
+          color: black;
+          padding: 15px 7px;
+          text-decoration: none;
+          display: block;
+          font-size: 10px;
+        }
+
+        body{
+          background-image: url("../image/baggrundmob.png");
+          background-size:
+        }
+
+        .logo{
+          display: none;
+        }
+
+        .logomobil{
+          display: block;
+        }
+
+
+        .urtektam{
+          display: none;
+        }
+
+        .urtektammob{
+          display: block;
+        }
+
+        .urtektamtab{
+          display: none;
+        }
+
+        .linje{
+          display:none;
+        }
+
+        .linjemob{
+          display: block;
+        }
+
+        .linjetab{
+          display: none;
+        }
+
+        .linjet{
+          display: none;
+        }
+
+        .logotab{
+          display: none;
+        }
+
+        .italien{
+          display: none;
+        }
+
+        .italienmob{
+            display: block;
+          }
+          .italientab{
+              display: none;
+            }
+
+
+        .h1{
+          margin-top:2%;
+          margin-left: 10%;
+          font-size: 70%;
+
+
+
+        }
+
+        .h2{
+          font-size: 55%;
+          text-align: center;
+          margin-left: -1%;
+          margin-bottom: 15%;
+
+        }
+
+        .column{
+          display: none;
+        }
+
+  #slideshow{
+    display: none;
+  }
+
+        /* Styling the area of the slides */
+        #slideshow1 {
+          overflow: hidden;
+          width: 95%;
+          margin-left: 2.5%;
+          margin-top: 10%;
+        }
+
+        /* Style each of the sides
+        with a fixed width and height */
+        .slide1 {
+          float: left;
+          height: 420px;
+          width: 900px;
+          margin-top: -3%;
+        }
+
+        /* Add animation to the slides */
+        .slide-wrapper1 {
+
+        /* Calculate the total width on the
+          basis of number of slides */
+          width: calc(900px * 3);
+
+        /* Specify the animation with the
+          duration and speed */
+          animation: slide 20s ease infinite;
+        }
+
+         .img2{
+           width: 100%
+         }
+
+        /* Define the animation
+        for the slideshow */
+        @keyframes slide {
+
+        /* Calculate the margin-left for
+          each of the slides */
+          80% {
+            margin-left: calc(-1000px);
+          }
+
+          50% {
+            margin-left: calc(-1000px * 2);
+          }
+
+          50% {
+            margin-left: calc(-1000px * 1);
+          }
+
+          80% {
+            margin-left: calc(-1000px * 2);
+          }
+        }
+
+
+
+
+        .historie{
+          background-color: #8c1812;
+          margin-top: 15%;
+          margin-bottom: 15%;
+          width: 95%;
+          margin-left: 2.5%;
+          margin-right: 5%;
+          border-top: 1px solid black;
+          border-bottom: 1px solid black;
+          border-left: 1px solid black;
+          border-right: 1px solid black;
+          font-family: "Andale Mono", sans-serif;
+          font-size: 13px;
+          color: white;
+
+        }
+
+        .his{
+          margin-bottom: 6%;
+          margin-left: 4%;
+          margin-right: 2%;
+        }
+
+        /*styling af tabel*/
+
+        .styled-table{
+          margin: 25px 0;
+          font-size: 14px;
+          min-width: 300px;
+          box-shadow: 0 0 20px rgba(0,0,0,0.15);
+          border-top: 1px solid black;
+          border-bottom: 1px solid black;
+          border-left: 1px solid black;
+          border-right: 1px solid black;
+          width: 95%;
+          margin-left: 2.5%;
+          margin-right: 5%;
+          margin-bottom: 15%;
+          background-color:  #10672e;
+          color:white;
+          margin-bottom: 8%;
+
+
+
+        }
+
+        .styled-table thead {
+          background-color: #10672e;
+          color: white;
+          text-align: center;
+          font-weight: bold;
+          font-size: 130%;
+          max-width: 95%;
+
+
+        }
+
+        .styled-table th,
+        .styled-table td{
+          padding: 15px 15px;
+        }
+
+        .styled-table tbody tr:last-of-type{
+          border-bottom: 2px solid black;
+        }
+
+        .styled-table tbody tr.active-row{
+          font-weight: bold;
+          color: white;
+        }
+
+
+      }
+
+
+      /* Responsive layout lodret - tablet*/
+          @media only screen and (min-width: 600px){
+
+            body{
+              background-image: url("../image/tablet.png");
+              background-size:
+            }
+
+            .logo{
+              display: none;
+            }
+
+            .logomobil{
+              display: none;
+            }
+
+            .logotab{
+              display: block;
+            }
+
+            /*placering af link til urtekram*/
+            .urtekram{
+              margin-left: 82%;
+              margin-top: 11%;
+
+            }
+
+            .urtektammob{
+              display: none;
+            }
+
+            .urtektamtab{
+              display: block;
+            }
+
+
+            .linje{
+              display:none;
+            }
+
+            .linjemob{
+              display: none;
+            }
+
+            .linjetab{
+              display: block;
+            }
+
+            .linjet{
+              display: none;
+            }
+
+            .italien{
+              display: none;
+            }
+
+            .italienmob{
+                display: none;
+              }
+
+              .italientab{
+                  display: block;
+                }
+
+              .columnmob{
+                display: none;
+              }
+
+              .h1{
+                margin-top: 5%;
+              }
+
+            .h2{
+              margin-left: 26%;
+              font-size: 12px;
+              margin-bottom: 5%;
+
+            }
+
+            /*overlay på billeder med opskift*/
+             .content1 {
+              position:absolute;
+              bottom: 13%;
+              background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+              color: #f1f1f1;
+              width: 23%;
+              padding: 0.5px;
+              text-align: center;
+              font-size: 10px;
+            }
+
+            /*overlay på billeder med opskift*/
+             .content2 {
+              position:absolute;
+              bottom: 3%;
+              background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+              color: #f1f1f1;
+              width: 22.5%;
+              padding: 0.5px;
+              text-align: center;
+              font-size: 10px;
+            }
+
+            /*overlay på billeder med opskift*/
+             .content3 {
+              position:absolute;
+              bottom: 10.5%;
+              background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+              color: #f1f1f1;
+              width: 23.5%;
+              padding: 0.5px;
+              text-align: center;
+              font-size: 10px;
+            }
+
+            /* Styling the area of the slides */
+            #slideshow {
+              overflow: hidden;
+              width: 97%;
+              margin-left: 1.5%;
+            }
+
+            /* Style each of the sides
+            with a fixed width and height */
+            .slide {
+              float: left;
+              height: 450px;
+              width: 1000px;
+              margin-top: -3%;
+            }
+
+            /* Add animation to the slides */
+            .slide-wrapper {
+
+            /* Calculate the total width on the
+              basis of number of slides */
+              width: calc(1000px * 3);
+
+            /* Specify the animation with the
+              duration and speed */
+              animation: slide 20s ease infinite;
+            }
+
+             .img1{
+               width: 100%
+             }
+
+            /* Define the animation
+            for the slideshow */
+            @keyframes slide {
+
+            /* Calculate the margin-left for
+              each of the slides */
+              90% {
+                margin-left: calc(-1000px);
+              }
+
+              90% {
+                margin-left: calc(-1000px * 2);
+              }
+
+              50% {
+                margin-left: calc(-1000px * 1);
+              }
+
+              80% {
+                margin-left: calc(-1000px * 2);
+              }
+            }
+
+
+
+            .historie{
+              background-color: #8c1812;
+              margin-top: 5%;
+              margin-left: 1.5%;
+              width: 97%;
+              margin-bottom: 10%;
+              border-top: 1px solid black;
+              border-bottom: 1px solid black;
+              border-left: 1px solid black;
+              border-right: 1px solid black;
+              font-family: "Andale Mono", sans-serif;
+              font-size: 15px;
+              color: white;
+
+            }
+
+            #slideshow1{
+              display: none;
+            }
+
+            /*styling af tabel*/
+
+            .styled-table{
+              margin: 25px 0;
+              font-size: 15px;
+              min-width: 300px;
+              box-shadow: 0 0 20px rgba(0,0,0,0.15);
+              border-top: 1px solid black;
+              border-bottom: 1px solid black;
+              border-left: 1px solid black;
+              border-right: 1px solid black;
+              width: 97%;
+              margin-left: 1.5%;
+              margin-bottom: 15%;
+              background-color:  #10672e;
+              color:white;
+              margin-bottom: 8%;
+
+            }
+
+
+
+
+
+
+
+
+
+          }
+
+          /* Responsive layout vandret - tablet*/
+              @media only screen and (min-width: 1024px) {
+
+                .logotab{
+                  margin-top: -19%;
+                  margin-left: 24%;
+                }
+
+                /*placering af link til urtekram*/
+                .urtekram{
+                  margin-left: 82%;
+                  margin-top: 12%;
+
+                }
+
+                .linjetab{
+                  display: none;
+                }
+
+                .linjet{
+                  display: block;
+                }
+
+                .h1{
+                  margin-top: 5%;
+                  margin-left: 25%;
+                }
+
+              .h2{
+                margin-left: 33%;
+                font-size: 12px;
+                margin-bottom: 5%;
+
+              }
+
+              /*overlay på billeder med opskift*/
+               .content1 {
+                position:absolute;
+                bottom: -28.5%;
+                background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                color: #f1f1f1;
+                width: 23.5%;
+                padding: 0.5px;
+                text-align: center;
+                font-size: 10px;
+              }
+
+              /*overlay på billeder med opskift*/
+               .content2 {
+                position:absolute;
+                bottom: -48.5%;
+                background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                color: #f1f1f1;
+                width: 22.5%;
+                padding: 0.5px;
+                text-align: center;
+                font-size: 10px;
+              }
+
+              /*overlay på billeder med opskift*/
+               .content3 {
+                position:absolute;
+                bottom: -33.5%;
+                background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+                color: #f1f1f1;
+                width: 23.5%;
+                padding: 0.5px;
+                text-align: center;
+                font-size: 10px;
+              }
+
+
+
+
+
+
+              }
+
+
+      /* Responsive layout - storskærm*/
+        @media screen and (min-width: 1200px){
+
+          .logo{
+            display: block;
+          }
+
+          .logomobil{
+            display: none;
+          }
+
+          .logotab{
+            display: none;
+          }
+
+
+
+          /*placering af link til urtekram*/
+          .urtekram{
+            margin-left: 82%;
+            margin-top: -11%;
+
+          }
+
+          .urtekrammob{
+            display: none;
+          }
+
+
+          .linje{
+            display: block;
+          }
+
+          .linjemob{
+            display: none;
+          }
+
+          .linjetab{
+            display: none;
+          }
+
+          .linjet{
+            display: none;
+          }
+
+
+
+
+          .italien{
+            display: block;
+          }
+
+          .italienmob{
+            display: none;
+          }
+
+          .italientab{
+              display: none;
+            }
+
+            .h1{
+              margin-top: 15%;
+              margin-left: 18%;
+            }
+
+            .h2{
+              font-size: 70%;
+              margin-left: 24%;
+
+            }
+
+            /*billede kollage*/
+
+            *{
+              box-sizing: border-box;
+            }
+
+            .row{
+              display: -ms-flexbox;
+              display: flex;
+              -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+              padding: 0 4px;
+            }
+
+            .column{
+              -ms-flex:25%;
+              flex:25%;
+              max-width: 25%;
+              padding: 0 4px;
+              max-height: 80%;
+            }
+
+            .column img {
+              margin-top: 8px;
+              vertical-align: middle;
+              width: 100%;
+            }
+
+            /*overlay på billeder med opskift*/
+             .content1 {
+              position:absolute;
+              bottom: -60%;
+              background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+              color: #f1f1f1;
+              width: 24%;
+              padding: 0.5px;
+              text-align: center;
+              font-size: 15px;
+            }
+
+            /*overlay på billeder med opskift*/
+             .content2 {
+              position:absolute;
+              bottom: -91%;
+              background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+              color: #f1f1f1;
+              width: 23.7%;
+              padding: 0.5px;
+              text-align: center;
+              font-size: 15px;
+            }
+
+            /*overlay på billeder med opskift*/
+             .content3 {
+              position:absolute;
+              bottom: -67.4%;
+              background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+              color: #f1f1f1;
+              width: 24%;
+              padding: 0.5px;
+              text-align: center;
+              font-size: 15px;
+            }
+
+
+          .columnmob{
+            display: none;
+          }
+
+          #slideshow1{
+            display: none;
+          }
+
+
+
+          /* Styling the area of the slides */
+          #slideshow {
+            overflow: hidden;
+            width: 49.3%;
+            margin-left: 50.3%
+          }
+
+          /* Style each of the sides
+          with a fixed width and height */
+          .slide {
+            float: left;
+            height: 450px;
+            width: 900px;
+            margin-top: -3%;
+          }
+
+          /* Add animation to the slides */
+          .slide-wrapper {
+
+          /* Calculate the total width on the
+            basis of number of slides */
+            width: calc(1000px * 3);
+
+          /* Specify the animation with the
+            duration and speed */
+            animation: slide 20s ease infinite;
+          }
+
+           .img1{
+             width: 100%
+           }
+
+          /* Define the animation
+          for the slideshow */
+          @keyframes slide {
+
+          /* Calculate the margin-left for
+            each of the slides */
+            90% {
+              margin-left: calc(-1000px);
+            }
+
+            90% {
+              margin-left: calc(-1000px * 2);
+            }
+
+            50% {
+              margin-left: calc(-1000px * 1);
+            }
+
+            80% {
+              margin-left: calc(-1000px * 2);
+            }
+          }
+
+
+          .historie{
+            background-color: #8c1812;
+            margin-top: -25.4%;
+            margin-right: 50.3%;
+            margin-left: 0.64%;
+            margin-bottom: 10%;
+            width: 49.1%;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            font-family: "Andale Mono", sans-serif;
+            font-size: 14px;
+            color: white;
+
+          }
+
+          .his{
+            margin-right: 5%;
+            margin-left: 2%;
+
+            margin-bottom: 5.4%;
+          }
+
+
+          /*styling af tabel*/
+
+          .styled-table{
+            margin: 25px 0;
+            font-size: 0.9em;
+            min-width: 400px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.15);
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            width: 99%;
+            margin-left: 0.5%;
+            background-color:  #10672e;
+            color:white;
+            margin-bottom: 8%;
+
+          }
+
+          .styled-table thead {
+            background-color: #10672e;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            font-size: 130%;
+            max-width: 100%;
+          }
+
+          .styled-table th,
+          .styled-table td{
+            padding: 15px 15px;
+          }
+
+          .styled-table tbody tr:last-of-type{
+            border-bottom: 2px solid black;
+          }
+
+          .styled-table tbody tr.active-row{
+            font-weight: bold;
+            color: white;
+
+          }
+          th{
+            width: 100%;
+            border-bottom: 1px solid white;
+          }
+
+
+
+
+
+        }

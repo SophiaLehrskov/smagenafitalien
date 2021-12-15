@@ -1,0 +1,870 @@
+/*farver*/
+:root{
+  --baggrund:#fbfbf4;
+  --tekstbox: #e3dfd3;
+}
+
+.wrap{
+  width: 100%;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/*baggrunds billede*/
+body{
+  background-color: var(--baggrund);
+  background-image: url("../image/baggrund1.png");
+  background-size: contain;
+  font-family: "Andale Mono", sans-serif;
+}
+
+/*drop down menu bar*/
+
+.dropbtn {
+  background-color: #0000;
+  color: black;
+  padding: 38px;
+  font-size: 35px;
+  border: none;
+  margin-top: 60%;
+  margin-left: 50%;
+}
+
+.dropdown {
+
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fbfbf4;
+  min-width: 38px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 20px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #fbfbf4;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #fbfbf4;}
+
+/*placering af logo*/
+.logo{
+  margin-left: 23%;
+  margin-top: -13%;
+
+}
+
+/*placering af logo tablet vandret*/
+.logotab{
+  margin-left:22%;
+  margin-top: -25%;
+
+}
+
+/*placering af logo tab*/
+.logomobil{
+  margin-left:18%;
+  margin-top: -26%;
+
+}
+
+/*placering af link til urtekram*/
+.urtekram{
+  margin-left: 82%;
+  margin-top: -11%;
+
+}
+
+/*placering af link til urtekram mob*/
+
+.urtekrammob{
+  margin-left: 55%;
+  margin-top: -17%;
+}
+
+/*placering af linje*/
+.linje{
+
+  margin-left: 1%;
+  margin-right: 2%;
+  margin-top: 16.5%;
+}
+
+/*placering af linje*/
+
+.linjemob{
+  margin-top: 5%;
+}
+
+/*placering af linje tab*/
+
+.linjetab{
+  margin-top: 4%;
+  margin-left: 1.5%;
+}
+
+
+/*Styling af overskift*/
+.overskift{
+  text-align: center;
+  margin-top: 2%;
+  font-size: 20px;
+
+}
+
+/*Styling af opskiften*/
+.opskift{
+  margin-left: 10%;
+  font-size: 18px;
+  margin-bottom: -5%;
+}
+
+.ingredienser{
+  font-size: 19px;
+  margin-top: 2%;
+
+}
+
+/*Styling af video*/
+.video{
+  margin-left: 50%;
+  margin-top: -24%;
+
+}
+
+/*Styling af video*/
+.video1{
+  margin-left: 50%;
+  margin-top: -21%;
+
+}
+
+/*Styling af video*/
+.video2{
+  margin-left: 50%;
+  margin-top: -30.3%;
+
+}
+
+/*Styling af video mob*/
+.videomob{
+  margin-top: 10%;
+  margin-left: 1%;
+}
+
+/*Styling af video tablet lodret*/
+.videotab{
+  margin-left: 7%;
+  margin-bottom: 5%;
+  }
+
+}
+
+/*Styling af video tablet vandret*/
+.videot{
+  margin-right: 10%;
+
+}
+
+/*Styling af fremgangsmåde*/
+.fremgangsmåde{
+  background-color: #10672e;
+  margin-top: 10% ;
+  margin-bottom: 10%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  font-family: "Andale Mono", sans-serif;
+  color: white;
+
+
+}
+
+.frem{
+  text-align: center;
+  font-size: 20px;
+}
+
+.tid{
+  margin-left: 55%;
+
+}
+
+.pers{
+  margin-left: 30%;
+  margin-top: -3.3%;
+  margin-bottom: 3%;
+
+}
+
+.tekst{
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 5%;
+  border-top: 1px solid white;
+}
+/*styling af footer*/
+
+.footer-basic{
+  background-color: var(--tekstbox);
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+
+
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+
+
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:5;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:1%;
+}
+
+.footer-basic .social > a {
+  font-size:20px;
+  width:40px;
+  height:40px;
+  line-height:42px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid black;
+  margin-top: 1%;
+  margin-bottom: 0.5%;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:5;
+}
+
+
+.footer-basic .copyright {
+  margin-top:0.5%;
+  text-align:center;
+  font-size:13px;
+  color:black;
+  margin-top: 2%;
+  font-family: "Andale Mono", sans-serif;
+}
+
+/*scrollbar*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+/* Responsive layout - Mobilenhed*/
+      @media screen and (max-width: 600px){
+
+        /*drop down menu bar*/
+
+        .dropbtn {
+          background-color: #0000;
+          color: black;
+          padding: 15px;
+          font-size: 20px;
+          border: none;
+          margin-top: 80%;
+          margin-left: 17%;
+
+        }
+
+        .dropdown {
+          display: inline-block;
+
+
+
+        }
+
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #fbfbf4;
+          min-width: 20px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 10;
+        }
+
+        .dropdown-content a {
+          color: black;
+          padding: 15px 7px;
+          text-decoration: none;
+          display: block;
+          font-size: 10px;
+        }
+
+        body{
+          background-image: url("../image/baggrundmobil.png");
+          background-size:
+        }
+
+        .logo{
+          display: none;
+        }
+
+        .logomobil{
+          display: block;
+        }
+
+        .logotab{
+          display: none;
+        }
+
+
+        .urtektam{
+          display: none;
+        }
+
+        .urtektammob{
+          display: block;
+        }
+
+        .linje{
+          display:none;
+        }
+
+        .linjemob{
+          display: block;
+        }
+
+        .linjetab{
+          display: none;
+        }
+
+
+        .linjet{
+          display: none;
+      }
+
+        .overskift{
+          text-align: center;
+          font-size: 18px;
+        }
+
+        /*Styling af video*/
+        .video{
+          display: none;
+        }
+        /*Styling af video*/
+        .video1{
+          display: none;
+        }
+        /*Styling af video*/
+        .video2{
+          display: none;
+        }
+
+        .videomob{
+          margin-top: 10%;
+          margin-left: 1%;
+
+        }
+
+        .videotab{
+        display: none;
+
+        }
+
+        .videot{
+          display: none;
+          }
+
+
+
+
+        .ingredienser{
+          margin-right: 40%;
+          margin-bottom: 10%;
+          font-size: 16px;
+          margin-top: 20%;
+        }
+
+        .opskift{
+          margin-left: 2%;
+          margin-top: 5%;
+          font-size: 15px;
+
+
+
+        }
+
+
+        /*Styling af fremgangsmåde*/
+        .fremgangsmåde{
+          background-color: #10672e;
+          margin-top: 20%;
+          margin-bottom: 13%;
+          border-top: 1px solid black;
+          border-bottom: 1px solid black;
+          border-left: 1px solid black;
+          border-right: 1px solid black;
+          font-family: "Andale Mono", sans-serif;
+          font-size: 15px;
+
+
+        }
+
+        .frem{
+          text-align: center;
+          font-size: 20px;
+        }
+
+        .tid{
+          margin-left: 26%;
+
+
+        }
+
+        .pers{
+          margin-left: 29%;
+          margin-top: -3.3%;
+          margin-bottom: 3%;
+
+        }
+
+        .tekst{
+
+          margin-left: 4%;
+          margin-right: 2.5%;
+          margin-bottom: 5%;
+          border-top: 1px solid white;
+        }
+
+
+      }
+
+      /* Responsive layout lodret - tablet*/
+          @media only screen and (min-width: 600px){
+
+            body{
+              background-image: url("../image/tablet.png");
+              background-size:
+            }
+
+            .logo{
+              display: none;
+            }
+
+            .logomobil{
+              display: none;
+            }
+
+            .logotab{
+              display: block;
+            }
+
+
+            /*placering af link til urtekram*/
+            .urtekram{
+              margin-left: 82%;
+              margin-top: 11%;
+
+            }
+
+            .urtektammob{
+              display: none;
+            }
+
+            .urtektamtab{
+              display: block;
+            }
+
+
+            .linje{
+              display:none;
+            }
+
+            .linjemob{
+              display: none;
+            }
+
+            .linjetab{
+              display: block;
+            }
+
+            .linjet{
+              display: none;
+            }
+
+            .videomob{
+              display: none;
+            }
+
+
+            .video{
+              display: none;
+            }
+            .video1{
+              display: none;
+            }
+            .video2{
+              display: none;
+            }
+
+            .videotab{
+              margin-left: 7%;
+              margin-bottom: 5%;
+            }
+
+            .videot{
+              display: none;
+            }
+
+
+            .ingredienser{
+              margin-right: 40%;
+              margin-bottom: 5%;
+              font-size: 24px;
+              margin-top: 20%;
+            }
+
+            .opskift{
+              margin-left: 3%;
+              margin-top: 5%;
+              font-size: 20px;
+
+                    }
+
+
+            /*Styling af fremgangsmåde*/
+            .fremgangsmåde{
+              background-color: #10672e;
+              margin-top: 10% ;
+              margin-bottom: 10%;
+              border-top: 1px solid black;
+              border-bottom: 1px solid black;
+              border-left: 1px solid black;
+              border-right: 1px solid black;
+              font-family: "Andale Mono", sans-serif;
+              color: white;
+              width: 97%;
+              margin-left: 1.5%;
+
+
+            }
+
+            .frem{
+              text-align: center;
+              font-size: 24px;
+            }
+
+            .tid{
+              margin-left: 38%;
+
+
+            }
+
+            .pers{
+              margin-left: 38%;
+              margin-top: -2%;
+              margin-bottom: 3%;
+
+            }
+
+            .tekst{
+
+              margin-left: 4%;
+              margin-right: 2.5%;
+              margin-bottom: 5%;
+              border-top: 1px solid white;
+              font-size: 20px;
+            }
+
+
+      }
+
+
+                /* Responsive layout vandret - tablet*/
+                    @media only screen and (min-width: 1024px) {
+
+                      .logotab{
+                        margin-top: -19%;
+                        margin-left: 24%;
+                      }
+
+                      /*placering af link til urtekram*/
+                      .urtekram{
+                        margin-left: 82%;
+                        margin-top: 12%;
+
+                      }
+
+                      .linjetab{
+                        display: none;
+                      }
+
+                      .linjet{
+                        display: block;
+                        margin-top: 4%;
+                      }
+
+
+                      .videomob{
+                        display: none;
+                        }
+
+
+                      .video{
+                        display: none;
+                        }
+                      .video1{
+                          display: none;
+                        }
+                      .video2{
+                         display: none;
+                        }
+
+                    .videotab{
+                          display: none;
+                        }
+
+                        .videot{
+                          display: block;
+                          margin-left: 5%;
+                          margin-bottom: 2%;
+                          margin-top: 5%;
+                        }
+
+
+                                    /*Styling af fremgangsmåde*/
+                                    .fremgangsmåde{
+                                      background-color: #10672e;
+                                      margin-top: 10% ;
+                                      margin-bottom: 10%;
+                                      border-top: 1px solid black;
+                                      border-bottom: 1px solid black;
+                                      border-left: 1px solid black;
+                                      border-right: 1px solid black;
+                                      font-family: "Andale Mono", sans-serif;
+                                      color: white;
+                                      width: 97%;
+                                      margin-left: 1.5%;
+
+
+                                    }
+
+                                    .frem{
+                                      text-align: center;
+                                      font-size: 24px;
+                                    }
+
+                                    .tid{
+                                      margin-left: 40%;
+
+
+                                    }
+
+                                    .pers{
+                                      margin-left: 40%;
+                                      margin-top: -2%;
+                                      margin-bottom: 3%;
+
+                                    }
+
+                                    .tekst{
+
+                                      margin-left: 4%;
+                                      margin-right: 2.5%;
+                                      margin-bottom: 5%;
+                                      border-top: 1px solid white;
+                                      font-size: 20px;
+                                    }
+
+
+
+                        }
+
+      /* Responsive layout - storskærm*/
+        @media screen and (min-width: 1200px){
+
+          .logo{
+            display: block;
+          }
+
+          .logomobil{
+            display: none;
+          }
+
+          .logotab{
+            display: none;
+          }
+
+
+          /*placering af link til urtekram*/
+          .urtekram{
+            margin-left: 82%;
+            margin-top: -11%;
+
+          }
+
+          .urtektammob{
+            display: none;
+          }
+
+          .linje{
+            display: block;
+          }
+
+          .linjemob{
+            display: none;
+          }
+
+          .linjetab{
+            display: none;
+          }
+
+          .linjet{
+            display: none;
+          }
+
+          .overskrift{
+            text-align: center;
+
+
+          }
+
+          /*Styling af video*/
+          .video{
+            display: block;
+
+
+          }
+
+          /*Styling af video*/
+          .video1{
+            display: block;
+
+          }
+
+          /*Styling af video*/
+          .video2{
+            display: block;
+          }
+
+          .videomob{
+            display: none;
+          }
+
+            .videotab{
+              display: none;
+              }
+
+              .videot{
+                display: none;
+                }
+
+                .ingredienser{
+
+
+                  margin-top: 5%;
+                }
+
+                .opskift{
+                  margin-left: 3%;
+                  margin-top: 5%;
+                  font-size: 20px;
+
+                        }
+
+
+
+                /*Styling af fremgangsmåde*/
+                .fremgangsmåde{
+                  background-color: #10672e;
+                  margin-top: 20% ;
+                  margin-bottom: 10%;
+                  border-top: 1px solid black;
+                  border-bottom: 1px solid black;
+                  border-left: 1px solid black;
+                  border-right: 1px solid black;
+                  font-family: "Andale Mono", sans-serif;
+                  color: white;
+
+
+                }
+
+                .frem{
+                  text-align: center;
+                  font-size: 20px;
+                }
+
+                .tid{
+                  margin-left: 55%;
+
+                }
+
+                .pers{
+                  margin-left: 30%;
+                  margin-top: -3.3%;
+                  margin-bottom: 3%;
+
+                }
+
+                .tekst{
+                  margin-left: 2.5%;
+                  margin-right: 2.5%;
+                  margin-bottom: 5%;
+                  border-top: 1px solid white;
+                }
+
+
+
+
+
+
+
+        }
