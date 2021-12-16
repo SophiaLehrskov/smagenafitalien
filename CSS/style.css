@@ -616,6 +616,19 @@ th{
           display: none;
         }
 
+        /*overlay på billeder med opskift*/
+         .contentmob {
+          position:relative;
+          top: -25px;
+          background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+          color: #f1f1f1;
+          width: 100%;
+          padding: 1px;
+          text-align: center;
+          font-size: 6px;
+        }
+
+
   #slideshow{
     display: none;
   }
