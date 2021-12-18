@@ -167,7 +167,10 @@ body{
 
 }
 
-
+.Smage{
+  text-align: center;
+  font-size: 25px;
+}
 
 
 
@@ -616,6 +619,12 @@ th{
           display: none;
         }
 
+        .Smage{
+          font-size: 10px;
+          margin-bottom: 1%;
+
+        }
+
         /*overlay på billeder med opskift*/
          .contentmob {
           position:relative;
@@ -846,10 +855,14 @@ th{
 
             }
 
+            .Smage{
+              font-size: 20px;
+            }
+
             /*overlay på billeder med opskift*/
              .content1 {
               position:absolute;
-              bottom: 13%;
+              bottom:4.5%;
               background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
               color: #f1f1f1;
               width: 23%;
@@ -861,7 +874,7 @@ th{
             /*overlay på billeder med opskift*/
              .content2 {
               position:absolute;
-              bottom: 3%;
+              bottom: -6%;
               background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
               color: #f1f1f1;
               width: 22.5%;
@@ -873,7 +886,7 @@ th{
             /*overlay på billeder med opskift*/
              .content3 {
               position:absolute;
-              bottom: 10.5%;
+              bottom: 1.5%;
               background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
               color: #f1f1f1;
               width: 23.5%;
@@ -1024,6 +1037,10 @@ th{
 
               }
 
+              .Smage{
+                font-size: 20px;
+              }
+
               /*overlay på billeder med opskift*/
                .content1 {
                 position:absolute;
@@ -1167,10 +1184,11 @@ th{
               width: 100%;
             }
 
+
             /*overlay på billeder med opskift*/
              .content1 {
               position:absolute;
-              bottom: -60%;
+              bottom: -70.6%;
               background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
               color: #f1f1f1;
               width: 24%;
@@ -1182,7 +1200,7 @@ th{
             /*overlay på billeder med opskift*/
              .content2 {
               position:absolute;
-              bottom: -91%;
+              bottom: -101.5%;
               background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
               color: #f1f1f1;
               width: 23.7%;
@@ -1194,7 +1212,7 @@ th{
             /*overlay på billeder med opskift*/
              .content3 {
               position:absolute;
-              bottom: -67.4%;
+              bottom: -78%;
               background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
               color: #f1f1f1;
               width: 24%;
