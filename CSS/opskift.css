@@ -129,7 +129,7 @@ body{
 .opskift{
   margin-left: 10%;
   font-size: 18px;
-  margin-bottom: -5%;
+  margin-bottom: 2%;
 }
 
 .ingredienser{
@@ -182,7 +182,7 @@ body{
 /*Styling af fremgangsmåde*/
 .fremgangsmåde{
   background-color: #10672e;
-  margin-top: 10% ;
+  margin-top: 2% ;
   margin-bottom: 10%;
   border-top: 1px solid black;
   border-bottom: 1px solid black;

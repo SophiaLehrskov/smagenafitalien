@@ -862,7 +862,7 @@ th{
             /*overlay på billeder med opskift*/
              .content1 {
               position:absolute;
-              bottom:4.5%;
+              bottom:6%;
               background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
               color: #f1f1f1;
               width: 23%;
@@ -874,7 +874,7 @@ th{
             /*overlay på billeder med opskift*/
              .content2 {
               position:absolute;
-              bottom: -6%;
+              bottom: -5%;
               background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
               color: #f1f1f1;
               width: 22.5%;
@@ -886,7 +886,7 @@ th{
             /*overlay på billeder med opskift*/
              .content3 {
               position:absolute;
-              bottom: 1.5%;
+              bottom: 3%;
               background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
               color: #f1f1f1;
               width: 23.5%;
@@ -1044,7 +1044,7 @@ th{
               /*overlay på billeder med opskift*/
                .content1 {
                 position:absolute;
-                bottom: -28.5%;
+                bottom: -30%;
                 background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
                 color: #f1f1f1;
                 width: 23.5%;
@@ -1156,6 +1156,11 @@ th{
 
             }
 
+            .Smage{
+              text-align: center;
+
+            }
+
             /*billede kollage*/
 
             *{
@@ -1188,7 +1193,7 @@ th{
             /*overlay på billeder med opskift*/
              .content1 {
               position:absolute;
-              bottom: -70.6%;
+              bottom: -68.7%;
               background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
               color: #f1f1f1;
               width: 24%;
@@ -1200,7 +1205,7 @@ th{
             /*overlay på billeder med opskift*/
              .content2 {
               position:absolute;
-              bottom: -101.5%;
+              bottom: -99.3%;
               background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
               color: #f1f1f1;
               width: 23.7%;
@@ -1212,7 +1217,7 @@ th{
             /*overlay på billeder med opskift*/
              .content3 {
               position:absolute;
-              bottom: -78%;
+              bottom: -76%;
               background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
               color: #f1f1f1;
               width: 24%;
@@ -1243,7 +1248,7 @@ th{
           with a fixed width and height */
           .slide {
             float: left;
-            height: 450px;
+            height: 465.5px;
             width: 900px;
             margin-top: -3%;
           }
@@ -1290,7 +1295,7 @@ th{
 
           .historie{
             background-color: #8c1812;
-            margin-top: -25.4%;
+            margin-top: -26.5%;
             margin-right: 50.3%;
             margin-left: 0.64%;
             margin-bottom: 10%;
